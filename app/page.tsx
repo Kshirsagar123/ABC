@@ -165,7 +165,7 @@ export default function BorderSecurityDashboard() {
       .join(" ")
   }
 
-  if (loading) {
+ if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 p-4">
         <div className="max-w-full mx-auto space-y-6">
@@ -189,8 +189,8 @@ export default function BorderSecurityDashboard() {
           <div className="flex items-center space-x-3">
             <Shield className="h-8 w-8 text-blue-600" />
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">Border Security System</h1>
-              <p className="text-gray-600">Dynamic data monitoring and analysis</p>
+              <h1 className="text-3xl font-bold text-gray-900">FireForce</h1>
+              <p className="text-gray-600">Intelligent Fire Safety System</p>
             </div>
           </div>
           <Button onClick={fetchData} disabled={loading} variant="outline">
